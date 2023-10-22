@@ -1,4 +1,4 @@
-def leiaint(mensagem):
+def le_int(mensagem):
     while True:
         try:
             n = int(input(mensagem))
@@ -14,6 +14,6 @@ def leiaint(mensagem):
         else: 
             return n
       
-n = leiaint("Digite um número: ")
+n = le_int("Digite um número: ")
 print("O seu número é:",n)
 
